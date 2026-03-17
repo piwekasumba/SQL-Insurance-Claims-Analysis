@@ -1,4 +1,5 @@
 claim_id,customer_id,policy_id,claim_date,claim_type,claim_amount,claim_status,incident_city,incident_type,police_report,days_to_settle
+
 1001,C001,P10001,2024-01-05,Accident,15000,Approved,Johannesburg,Vehicle Collision,Yes,12
 1002,C002,P10002,2024-01-10,Theft,8000,Rejected,Pretoria,Car Theft,Yes,0
 1003,C003,P10003,2024-01-12,Fire,25000,Approved,Durban,House Fire,Yes,20

@@ -1,4 +1,5 @@
 customer_id,first_name,last_name,gender,age,city,province,policy_start_date,policy_type
+
 C001,Thabo,Mokoena,Male,34,Johannesburg,Gauteng,2022-05-10,Comprehensive
 C002,Lerato,Khumalo,Female,29,Pretoria,Gauteng,2023-01-15,Third Party
 C003,Sipho,Dlamini,Male,41,Durban,Kwazulu-Natal,2021-11-20,Comprehensive
