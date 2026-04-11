@@ -1,6 +1,6 @@
 # SQL Insurance Claims Analysis – ETL & Data Transformation
 
-## 🚀 Project Overview
+# Project Overview
 
 This project demonstrates a practical **SQL‑based ETL and analytics workflow** applied to insurance claims data. The goal was to clean and transform raw datasets into **structured, analysis‑ready tables** and extract actionable business insights using PostgreSQL.
 
@@ -10,7 +10,7 @@ It simulates real‑world data engineering tasks such as:
 • Identifying patterns and summarizing trends  
 • Preparing data for reporting and decision‑making  
 
-## 🎯 Why This Matters
+# Why This Matters
 
 In data engineering and analytics roles, being able to **clean, transform, and analyze raw data** is essential. Real datasets often contain:
 • Inconsistent formats  
@@ -23,14 +23,14 @@ Transforming these into reliable datasets enables:
 • Better strategic decisions  
 • Predictable analytics workflows  
 
-## 🛠 Tech & Tools
+# Tech & Tools
 
 • PostgreSQL  
 • SQL  
 • Relational database concepts  
 • Git & GitHub
 
-## 🔍 Key Project Highlights
+# Key Project Highlights
 
 • Performed **data cleaning** to standardize formats and handle missing values  
 • Built **SQL transformations** with JOINs, aggregations, filters, and subqueries  
