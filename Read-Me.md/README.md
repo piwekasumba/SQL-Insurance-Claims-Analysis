@@ -1,56 +1,55 @@
-# Insurance Claims Analysis (PostgreSQL)
+# Insurance Claims Data Analysis (SQL Project)
 
-## Project Overview
-This project analyzes insurance claims data using PostgreSQL, focusing on transforming raw data into meaningful business insights.
+• Overview
 
-It simulates a real-world data workflow where structured datasets are cleaned, processed, and analyzed to support decision-making.
+This project focuses on analyzing insurance claims data using SQL.
 
-## Objectives
-- Clean and prepare raw insurance data
-- Perform SQL joins and aggregations
-- Analyze claim patterns across different customer segments
-- Generate insights relevant to business and risk assessment
+The goal was to move beyond basic queries and start working with data across multiple tables, while thinking about how results hold up in more realistic scenarios.
 
-## Why This Project Matters
-Insurance companies rely heavily on data to assess risk, detect patterns, and control costs.
+---
 
-This project demonstrates how SQL can be used to:
-- Identify high-risk groups
-- Understand cost drivers
-- Support data-driven business decisions
-- Build the foundation for scalable analytics pipelines
+• What I worked on
 
-## Key Features
-- Data cleaning and preprocessing
-- SQL JOIN operations across multiple tables
-- Aggregations using GROUP BY
-- Filtering and segmentation of data
-- Business-focused analytical queries
+- Writing SQL queries to explore claims data
+- Working with multiple tables and joins
+- Identifying patterns in claims and payouts
+- Making sure results stay consistent across queries
 
-## Tech & Tools
-- PostgreSQL
-- SQL
-- Git & GitHub
+---
 
-## Key Business Questions Answered
-1. Which regions have the highest claim costs?
-2. Do smokers generate higher insurance claims?
-3. How do age and BMI impact claim amounts?
-4. Which customer segments contribute most to total costs?
+• Key focus areas
 
-## Example Insights
-- Certain regions show consistently higher claim totals, indicating possible risk concentration
-- Smokers tend to have higher average claim costs compared to non-smokers
-- Higher BMI and age are correlated with increased insurance expenses
+While building this project, I paid attention to:
 
-## Example Queries
-```sql
--- Average claim cost by smoker status
-SELECT smoker, AVG(claim_amount) AS avg_claim
-FROM insurance_claims
-GROUP BY smoker;
+- How joins affect results (especially duplicates and missing data)
+- How data is structured across tables
+- How small changes in queries can impact outputs
 
--- Total claims by region
-SELECT region, SUM(claim_amount) AS total_claims
-FROM insurance_claims
-GROUP BY region;
+---
+
+• Project Structure
+
+- SQL (PostgreSQL): data extraction, joins, analysis  
+- Documentation (text): explanation of approach, assumptions, and insights  
+
+---
+
+• What I learned
+
+- A query can return the correct result but still not be reliable
+- Working with multiple tables requires more attention to detail
+- Data is not always clean or complete, which affects analysis
+
+---
+
+• What I would improve
+
+- Handle edge cases more carefully (e.g. missing data)
+- Improve query structure for readability and reuse
+- Add more validation checks on results
+
+---
+
+• Notes
+
+This project is part of my self-study process as I build a stronger foundation in SQL and data-related work.
