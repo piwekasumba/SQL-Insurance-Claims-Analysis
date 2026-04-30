@@ -1,22 +1,18 @@
-• Commit – Final Project Documentation and Overview
+- This commit finalizes the SQL Insurance Claims Analysis project by introducing a structured and detailed project overview document designed for portfolio presentation.
 
-• This commit finalizes the SQL Insurance Claims Analysis project by adding a comprehensive project overview document.
-
-• The purpose of this final step is to present the project in a structured and portfolio-ready format, summarizing the work completed and the learning outcomes.
+- The purpose of this final step is to clearly communicate the end-to-end workflow of the project, summarize the technical implementation, and present the work in a clean, recruiter-friendly format.
 
 The project overview includes:
 
-- Project objectives and scope
-- Description of the dataset used
-- Summary of SQL-based data preparation and analysis steps
-- Overview of query development using joins and aggregations
-- Key learnings from working with multi-table data
+• Clearly defined project objectives and scope
+• Description of the insurance claims and customer datasets used
+• Summary of SQL-based data preparation, cleaning, and transformation steps
+• Overview of relational query development using JOINs, filtering, and aggregations
+• Key learnings from working with multi-table relational data structures
 
 Key focus of this final stage:
 
-- Clearly communicating the structure and purpose of the project
-- Summarizing technical work in a way that is easy to understand
-- Highlighting learning progression across SQL concepts
-
-• This final commit represents the completion of the project as part of my ongoing learning in SQL and data analysis, with a focus on building structured, consistent, and well-documented work.
-
+• Presenting the project in a structured, professional, and easy-to-understand format
+• Summarizing technical SQL work without unnecessary complexity
+• Demonstrating progression in SQL, relational thinking, and data handling skills
+• This final commit represents the completion of the project as part of my ongoing learning in SQL and data analysis, with a focus on building structured, consistent, and well-documented work
