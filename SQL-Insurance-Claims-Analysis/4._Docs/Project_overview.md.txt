@@ -1,48 +1,22 @@
-# SQL Insurance Claims Analysis — Project Overview
+• Commit – Final Project Documentation and Overview
 
-## 1. Project Objective
-This project simulates a real-world insurance claims workflow, demonstrating SQL and data engineering skills. It covers the full data lifecycle: ingestion, cleaning, transformation (ETL), analysis, and insight generation. The goal is to showcase practical skills for analytics and data engineering roles.
+• This commit finalizes the SQL Insurance Claims Analysis project by adding a comprehensive project overview document.
 
----
+• The purpose of this final step is to present the project in a structured and portfolio-ready format, summarizing the work completed and the learning outcomes.
 
-## 2. Dataset
-- **Source:** Synthetic insurance claims dataset
-- **Columns:** claim_id, policy_id, customer_id, claim_amount, claim_date, policy_type, fraud_flag
-- **Purpose:** Simulates realistic claims processing and fraud detection scenarios
+The project overview includes:
 
----
+- Project objectives and scope
+- Description of the dataset used
+- Summary of SQL-based data preparation and analysis steps
+- Overview of query development using joins and aggregations
+- Key learnings from working with multi-table data
 
-## 3. Workflow Overview
-1. **Data Ingestion:** Imported raw CSV data into PostgreSQL tables
-2. **Data Cleaning:** Removed duplicates, handled missing values, standardized formats
-3. **ETL / Transformation:** Derived calculated metrics, created normalized tables ready for analysis
-4. **Exploratory Analysis:** Queries to understand claim distributions, averages, and trends
-5. **Fraud Detection:** Advanced SQL queries identifying suspicious claims and high-risk patterns
-6. **Business Insights:** Actionable insights highlighting high-risk customers and policy types
-7. **Outputs:** Exported cleaned and aggregated data to CSV for reporting or dashboards
-8. **Documentation:** README and this project overview summarize the full workflow
+Key focus of this final stage:
 
----
+- Clearly communicating the structure and purpose of the project
+- Summarizing technical work in a way that is easy to understand
+- Highlighting learning progression across SQL concepts
 
-## 4. Key SQL Techniques Applied
-- Table creation & schema design
-- Data cleaning and preprocessing
-- Aggregations and advanced filtering
-- CASE statements for categorization
-- Multi-table joins for analysis
-- Derived metrics and calculated fields
-- Exporting results for downstream use
-
----
-
-## 5. Business Value
-- Identifies potential fraudulent claims
-- Highlights high-risk policy types and customer segments
-- Provides insights to improve claim processing efficiency
-- Demonstrates professional data engineering workflow and analytical thinking
-
----
-
-## 6. Outcome & Significance
-This project demonstrates full-cycle SQL data engineering and analysis on a real-world-inspired dataset. The structured workflow, technical depth, and actionable insights make this repository **portfolio-ready**, showing recruiters and hiring managers that the candidate can handle real-world data challenges professionally.
+• This final commit represents the completion of the project as part of my ongoing learning in SQL and data analysis, with a focus on building structured, consistent, and well-documented work.
 
