@@ -1,5 +1,6 @@
 SQL Insurance Claims Analysis – ETL & Data Transformation
-Project Overview
+
+Project Overview:
 
 This project demonstrates a practical SQL-based ETL and analytics workflow applied to insurance claims data.
 
@@ -34,7 +35,7 @@ Key Project Highlights:
 • Extracted basic trends and insights from claims data
 • Documented each step for clarity and understanding
 
-Project Structure
+Project Structure:
 
 SQL queries are written in a structured, step-by-step format
 Each section includes explanations to improve readability and understanding
