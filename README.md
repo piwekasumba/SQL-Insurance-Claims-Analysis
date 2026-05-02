@@ -1,41 +1,41 @@
-# SQL Insurance Claims Analysis – ETL & Data Transformation
+SQL Insurance Claims Analysis – ETL & Data Transformation
+Project Overview
 
-# Project Overview
+This project demonstrates a practical SQL-based ETL and analytics workflow applied to insurance claims data.
 
-This project demonstrates a practical **SQL‑based ETL and analytics workflow** applied to insurance claims data. The goal was to clean and transform raw datasets into **structured, analysis‑ready tables** and extract actionable business insights using PostgreSQL.
+The focus is on transforming raw datasets into structured, analysis-ready tables using PostgreSQL, while applying step-by-step SQL logic to simulate real-world data tasks.
 
-It simulates real‑world data engineering tasks such as:
-• Data cleansing and validation  
-• Extracting useful information through JOINs and aggregations  
-• Identifying patterns and summarizing trends  
-• Preparing data for reporting and decision‑making  
+Why This Matters:
 
-# Why This Matters
+Working with real-world data involves:
 
-In data engineering and analytics roles, being able to **clean, transform, and analyze raw data** is essential. Real datasets often contain:
-• Inconsistent formats  
-• Duplicate records  
-• Missing values  
-• Mixed data types  
+• Inconsistent formats
+• Missing values
+• Duplicate records
 
-Transforming these into reliable datasets enables:
-• Accurate reporting  
-• Better strategic decisions  
-• Predictable analytics workflows  
+This project focuses on building a clear approach to:
 
-# Tech & Tools
+• Cleaning raw data
+• Structuring datasets
+• Extracting meaningful insights
 
-• PostgreSQL  
-• SQL  
-• Relational database concepts  
+Tech & Tools:
+
+• PostgreSQL
+• SQL
+• Relational database concepts
 • Git & GitHub
 
-# Key Project Highlights
+Key Project Highlights:
 
-• Performed **data cleaning** to standardize formats and handle missing values  
-• Built **SQL transformations** with JOINs, aggregations, filters, and subqueries  
-• Extracted **business insights** through meaningful aggregations and trend analysis  
-• Validated and documented each step for reproducibility  
-• Demonstrated core ETL workflows using SQL
+• Cleaned and standardized raw insurance data
+• Applied JOINs, aggregations, filters, and subqueries
+• Transformed datasets into structured, usable formats
+• Extracted basic trends and insights from claims data
+• Documented each step for clarity and understanding
 
-## 📂 Repo Structure (Example)
+Project Structure
+
+SQL queries are written in a structured, step-by-step format
+Each section includes explanations to improve readability and understanding
+Focus is on clarity and learning, not production-level pipelines
