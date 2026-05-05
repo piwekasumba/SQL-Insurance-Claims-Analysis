@@ -1,42 +1,71 @@
-SQL Insurance Claims Analysis – ETL & Data Transformation
+# SQL Insurance Claims Analysis – ETL & Data Transformation
 
-Project Overview:
+-  Project Overview
 
-This project demonstrates a practical SQL-based ETL and analytics workflow applied to insurance claims data.
+This project focuses on using SQL (PostgreSQL) to simulate a basic ETL workflow on insurance claims data.
 
-The focus is on transforming raw datasets into structured, analysis-ready tables using PostgreSQL, while applying step-by-step SQL logic to simulate real-world data tasks.
+The goal is to take raw, unstructured data and transform it into a clean, structured format that can be used for analysis.
 
-Why This Matters:
+---
 
-Working with real-world data involves:
+-  Why This Matters
 
-• Inconsistent formats
-• Missing values
-• Duplicate records
+In real-world data environments, raw data is rarely ready for analysis.
 
-This project focuses on building a clear approach to:
+Common challenges include:
+- Missing values  
+- Inconsistent formats  
+- Duplicate records  
 
-• Cleaning raw data
-• Structuring datasets
-• Extracting meaningful insights
+Being able to clean and structure data using SQL is a core skill for entry-level data roles such as Data Analyst and a foundation for Data Engineering.
 
-Tech & Tools:
+---
 
-• PostgreSQL
-• SQL
-• Relational database concepts
-• Git & GitHub
+ - What This Project Demonstrates
 
-Key Project Highlights:
+- Writing SQL queries to clean and standardize raw data  
+- Handling missing values and inconsistent formats  
+- Using JOINs to combine multiple datasets  
+- Applying aggregations and filters to explore data  
+- Structuring data into analysis-ready tables  
+- Thinking through problems step-by-step using SQL  
 
-• Cleaned and standardized raw insurance data
-• Applied JOINs, aggregations, filters, and subqueries
-• Transformed datasets into structured, usable formats
-• Extracted basic trends and insights from claims data
-• Documented each step for clarity and understanding
+---
 
-Project Structure:
+- Tech & Tools
 
-SQL queries are written in a structured, step-by-step format
-Each section includes explanations to improve readability and understanding
-Focus is on clarity and learning, not production-level pipelines
+- PostgreSQL  
+- SQL  
+- Relational database concepts  
+- Git & GitHub  
+
+---
+
+- Project Structure
+
+- SQL Scripts  
+  Step-by-step queries for:
+  - Data cleaning  
+  - Data transformation  
+  - Basic analysis  
+
+- Documentation  
+  Explanations are included alongside queries to improve clarity and understanding.
+
+This project focuses on building strong SQL foundations and clear thinking, rather than production-level pipeline development.
+
+---
+
+- Example Query
+
+```sql
+-- Example: Identify total claim amount per customer
+
+SELECT 
+    customer_id,
+    SUM(claim_amount) AS total_claim_amount
+FROM claims
+WHERE claim_status = 'Approved'
+GROUP BY customer_id
+ORDER BY total_claim_amount DESC;
+
