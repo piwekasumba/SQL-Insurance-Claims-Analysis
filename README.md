@@ -1,67 +1,42 @@
-📊 Business Context & Impact
+• Insurance Claims Analysis (SQL Project)
 
-This project simulates a real-world insurance data environment where raw claims data is often incomplete, inconsistent, and unstructured.
+This project focuses on cleaning and analyzing insurance claims data using PostgreSQL.
 
-In production systems, data rarely arrives in an analysis-ready state. It typically requires:
+The dataset contains issues commonly found in real-world data such as:
 
-• Standardization of formats (dates, categories, IDs)
-• Handling missing or null values
-• Removing duplicates and inconsistencies
-• Structuring data for reliable reporting and analytics
+missing values
+duplicate records
+inconsistent categories
+unstructured information
 
-This project demonstrates how SQL can be used as a core data transformation tool in an ETL-like workflow.
+The goal of the project was to take raw insurance claims data and turn it into a cleaner, more usable dataset for reporting and analysis.
 
-🎯 Real-World Relevance
+• What I Worked On
 
-This project reflects tasks commonly performed in:
+In this project, I used SQL to:
 
-• Data Analyst roles (data cleaning, reporting datasets)
-• Junior Data Engineer roles (data transformation pipelines)
-• BI & Analytics environments (preparing data for dashboards)
+clean and standardize raw data
+handle null and duplicate values
+join related tables
+create analysis-focused queries
+explore business-related claim trends
 
-It builds foundational skills required in data preparation, data quality control, and analytical structuring, which are essential in any data-driven organization.
+I also focused on writing readable SQL queries and structuring the workflow step-by-step to better understand how raw data is prepared before reporting or dashboarding.
 
-🧠 Key Skills Demonstrated
+• Tools Used
 
-• ETL-style thinking using SQL (Extract → Transform → Load simulation)
-• Data cleaning and standardization techniques
-• Handling missing, inconsistent, and duplicate data
-• Joining multiple datasets for relational analysis
-• Aggregating and summarizing business metrics
-• Writing structured, readable SQL queries
-• Translating raw data into analysis-ready tables
+PostgreSQL
+SQL
+Git & GitHub
 
-🛠️ Tech Stack
+• Project Contents
 
-• PostgreSQL
-• SQL (Advanced querying & transformations)
-• Relational Database Design Principles
-• Git & GitHub (version control & documentation)
+Data cleaning queries
+Transformation queries
+Exploratory analysis queries
+Business insight examples
 
-📁 Project Structure
-
-🔹 SQL Scripts
-
-Step-by-step transformation pipeline including:
-
-• Data cleaning operations
-• Data standardization logic
-• Transformation queries
-• Exploratory analysis queries
-
-🔹 Documentation
-
-Each query is explained to show:
-
-• Why the transformation was needed
-• What problem it solves
-• How it contributes to analysis readiness
-
-This project prioritizes clarity of thought and SQL fundamentals over production-level engineering complexity.
-
-• Example Query (Business Insight)
-
--- Total approved claims per customer (business metric example)
+• Example Query
 
 SELECT 
     customer_id,
@@ -70,3 +45,4 @@ FROM claims
 WHERE claim_status = 'Approved'
 GROUP BY customer_id
 ORDER BY total_claim_value DESC;
+
